@@ -7,6 +7,8 @@ Exemplo simples de uma implementação da arquitetura MVC (Model, View, Control)
 
 A aplicação consiste em um CRUD Simples de Frases.
 
+![Main Screen](https://github.com/jrdevlopes/SimpleMVC_OO/blob/main/Assets/main_screen.png)
+
 # Tecnologias utilizadas
 - Delphi (Pascal)
 - Ferramenta RadStudio
