@@ -3,7 +3,7 @@ object frmMain: TfrmMain
   Top = 0
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
-  Caption = 'SimpleMVC Oriented Object'
+  Caption = 'SimpleMVC Object Oriented'
   ClientHeight = 360
   ClientWidth = 430
   Color = clBtnFace
