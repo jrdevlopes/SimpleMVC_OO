@@ -20,6 +20,7 @@ A aplicação consiste em um CRUD Simples de Frases.
 
 # Como executar o projeto
 - Descompactar arquivo .zip na pasta Release, abrir o executável, banco de dados criado em memória !!
+
 (exe do projeto compilado na ferramenta RadStudio, livre de vírus)
 
 # Autor
