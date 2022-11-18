@@ -19,8 +19,8 @@ A aplicação consiste em um CRUD Simples de Frases.
 - Banco de dados: SQLite (In-memory)
 
 # Como executar o projeto
-Pré-requisitos: RadStudio 11.2 (Alexandria)
-- Abrir executável compilado, banco de dados criado em memória !!
+- Descompactar arquivo .zip na pasta Release, abrir o executável, banco de dados criado em memória !!
+(exe do projeto compilado na ferramenta RadStudio, livre de vírus)
 
 # Autor
 João Roberto
