@@ -13,10 +13,6 @@ type
     FAction : TOperation;
     procedure SetAction(const Value: TOperation);
 
-    function Insert(vSimplePhrase : TSimplePhrase): boolean;
-    function Delete(vSimplePhrase : TSimplePhrase): boolean;
-    function Update(vSimplePhrase : TSimplePhrase): boolean;
-
   public
     function SaveAction : boolean;
     function ListPhrases : TFDQuery;
@@ -30,30 +26,6 @@ implementation
 { TSimplePhrase }
 
 uses uSimplePhraseDAO;
-
-function TSimplePhrase.Insert(vSimplePhrase: TSimplePhrase): boolean;
-var
-  PhraseDAO : TSimplePhraseDAO;
-begin
-  PhraseDAO := TSimplePhraseDAO.Create;
-  Result := PhraseDAO.InsertDAO(Self);
-end;
-
-function TSimplePhrase.Delete(vSimplePhrase: TSimplePhrase): boolean;
-var
-  PhraseDAO : TSimplePhraseDAO;
-begin
-  PhraseDAO := TSimplePhraseDAO.Create;
-  Result := PhraseDAO.DeleteDAO(Self);
-end;
-
-function TSimplePhrase.Update(vSimplePhrase: TSimplePhrase): boolean;
-var
-  PhraseDAO : TSimplePhraseDAO;
-begin
-  PhraseDAO := TSimplePhraseDAO.Create;
-  Result := PhraseDAO.UpdateDAO(Self);
-end;
 
 function TSimplePhrase.ListPhrases: TFDQuery;
 var
